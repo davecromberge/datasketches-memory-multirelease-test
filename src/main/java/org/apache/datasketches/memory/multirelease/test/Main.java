@@ -24,19 +24,10 @@ import org.apache.datasketches.memory.WritableBuffer;
 import org.apache.datasketches.memory.WritableDirectHandle;
 import org.apache.datasketches.memory.WritableMemory;
 
-import org.example.mrjar.C;
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
 class Main {
-
-    public static void MrJARTest() {
-        C c = new C();
-        System.out.println(c.getName());
-        // System.out.println(c.getLegacyName());
-        // System.out.println(c.getNewName());
-    }
 
     public static void OnHeapArrayTest() {
         byte[] arr = new byte[16];
@@ -92,7 +83,6 @@ class Main {
     }
 
     public static void main(String[] args) {
-        MrJARTest();
         OnHeapArrayTest();
         SimpleBBTest();
         SimpleAllocateDirect();
