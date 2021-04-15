@@ -30,4 +30,3 @@ $JAVA \
     --add-opens java.base/jdk.internal.misc=org.apache.datasketches.memory \
     --add-opens java.base/jdk.internal.ref=org.apache.datasketches.memory \
     --module datasketches.memory.multirelease.test
-#   --class-path "libs/*" \
