@@ -6,10 +6,8 @@ Tests a multirelease version of the Apache datasketches-memory project, using JP
 How it works:
 -------------
 
-The application is a simple JPMS modular application, that depends on three other modules:
+The application is a simple JPMS modular application, that depends on the datasketches-memory module:
 
-- mrjar
-- org.slf4j
 - datasketches-memory-multirelease
 
 The application uses the mods directory as the module-path.
