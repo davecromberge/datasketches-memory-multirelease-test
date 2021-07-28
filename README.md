@@ -21,10 +21,6 @@ Add the following VM flags to your launch configuration:
 
 ```
 --add-opens
-java.base/java.nio=org.apache.datasketches.memory
---add-opens
-java.base/jdk.internal.misc=org.apache.datasketches.memory
---add-opens
 java.base/jdk.internal.ref=org.apache.datasketches.memory
 ```
 
