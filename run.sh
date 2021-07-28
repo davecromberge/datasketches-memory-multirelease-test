@@ -26,7 +26,5 @@ echo "--- RUN ---"
 
 $JAVA \
     --module-path mods \
-    --add-opens java.base/java.nio=org.apache.datasketches.memory \
-    --add-opens java.base/jdk.internal.misc=org.apache.datasketches.memory \
     --add-opens java.base/jdk.internal.ref=org.apache.datasketches.memory \
     --module datasketches.memory.multirelease.test
